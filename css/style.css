@@ -42,15 +42,9 @@ header {
 }
 
 .main-header {
-    height: 300px;
     background-color: greenyellow;
 }
 
-@media screen and (min-width: 768px) {
-    .main-header {
-        height: 150px
-    }
-}
 
 @media screen and (min-width: 1200px) {
     .sidebar {
