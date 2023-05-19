@@ -36,11 +36,11 @@ main {
 }
 
 header {
-    height: 200px;
+    height: 150px;
 }
 
 .main-content {
-    height: calc(100vh - 200px);
+    height: calc(100vh - 150px);
     background-color: lightseagreen;
     overflow: auto;
 }
