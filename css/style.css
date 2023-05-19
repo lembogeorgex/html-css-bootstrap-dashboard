@@ -36,3 +36,13 @@ header {
         height: 150px
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        width: calc(100% - 200px);
+    }
+}
