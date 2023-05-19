@@ -1,5 +1,20 @@
 /* REMOVE */
 
+[class^='col'] {
+    border: 1px dashed blue;
+    min-height: 50px;
+}
+
+
+.sidebar-toggle-up {
+    border: 1px solid royalblue;
+    height: 50px;
+}
+
+.sidebar-toggle-bottom {
+    border: 1px solid royalblue;
+    min-height: 50px;
+}
 
 /* LAYOUT */
 header {
@@ -45,9 +60,4 @@ header {
     .main-content {
         width: calc(100% - 200px);
     }
-}
-
-[class^='col'] {
-    border: 1px dashed blue;
-    min-height: 50px;
 }
