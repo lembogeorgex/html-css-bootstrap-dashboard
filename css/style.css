@@ -1,8 +1,7 @@
 /* REMOVE */
 
 [class^='col'] {
-    border: 1px dashed blue;
-    min-height: 100px;
+    border: 1px dashed
 }
 
 
@@ -18,7 +17,7 @@
 
 /* LAYOUT */
 header {
-    min-height: 70px;
+    height: 100px;
     background-color: rgb(248, 249, 250);
 
 }
@@ -26,7 +25,7 @@ header {
 .wrapper {
     display: flex;
     width: calc(100%);
-    height: calc(100vh - 70px);
+    height: calc(100vh - 100px);
 }
 
 .sidebar {
@@ -96,7 +95,7 @@ header {
 }
 
 .header-searchbar {
-    width: 80%;
+    width: 100%;
     ;
 }
 
