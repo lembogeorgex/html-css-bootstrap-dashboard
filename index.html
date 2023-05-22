@@ -38,16 +38,26 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-12">
-            <nav class="navbar justify-content-evenly">
+            <nav class="navbar justify-content-evenly flex-nowrap bg-white">
               <a class="navbar-brand mx-0" href="#">
                 <img
                   src="img/mobile-logo.png"
                   alt="Logo"
                   width="50"
                   height="48"
+                  class="d-md-none d-lg-none"
                 />
               </a>
 
+              <a class="navbar-brand mx-0" href="#">
+                <img
+                  src="img/logo.svg"
+                  alt="Logo"
+                  width="100"
+                  height="96"
+                  class="d-none d-md-block d-lg-block my-large-logo"
+                />
+              </a>
               <form class="header-searchbar">
                 <div class="input-group searchbar">
                   <span class="input-group-text border-0" id="basic-addon1">
@@ -65,7 +75,7 @@
                   />
                 </div>
               </form>
-              <div class="my-ico">
+              <div class="my-ico d-flex flex-nowrap align-items-center">
                 <i class="fa-solid fa-list px-1 d-none d-lg-inline-block"></i>
                 <i
                   class="fa-solid fa-circle-question px-1 d-none d-lg-inline-block"
