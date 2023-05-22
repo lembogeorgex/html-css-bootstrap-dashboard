@@ -67,9 +67,17 @@ header {
         width: calc(100% - 200px);
     }
 
+    .offcanvas.offcanvas-end.show {
+        width: 100%;
+    }
+
 }
 
-
+@media screen and (max-width: 1200px) {
+    .offcanvas.offcanvas-end.show {
+        width: 50%;
+    }
+}
 
 .form-control {
     background-color: #e9ecef;
@@ -85,6 +93,7 @@ header {
     height: 50px;
 }
 
+/* OFFCanvas */
 .btn-light {
     background-color: transparent;
     border: 2px solid white;
@@ -93,14 +102,14 @@ header {
 }
 
 
+/* Dropdown */
+
 .btn-secondary.dropdown-toggle {
     background-color: transparent;
     border: none;
 }
 
-.offcanvas {
-    max-width: 50%
-}
+
 
 .dropstart .dropdown-toggle::before {
     display: none;
