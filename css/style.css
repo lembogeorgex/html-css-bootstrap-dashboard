@@ -84,3 +84,24 @@ header {
 .searchbar {
     height: 50px;
 }
+
+.btn-light {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-left: 15px;
+}
+
+
+.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+}
+
+.offcanvas {
+    max-width: 50%
+}
+
+.dropstart .dropdown-toggle::before {
+    display: none;
+}

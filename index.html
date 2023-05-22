@@ -20,11 +20,6 @@
       integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-      crossorigin="anonymous"
-    ></script>
 
     <link
       rel="stylesheet"
@@ -78,11 +73,37 @@
                 <i
                   class="fa-solid fa-ellipsis-vertical px-1 d-none d-lg-inline-block"
                 ></i>
-                <i
-                  class="fa-solid fa-bell fa-shake fa-2x px-1"
-                  style="color: #eeb759"
-                >
-                </i>
+
+                <div class="btn-group dropstart">
+                  <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i
+                      class="fa-solid fa-bell fa-shake fa-2x px-1 e"
+                      style="color: #eeb759"
+                    ></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        Profilo
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        Fatturazione
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        Logout
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </nav>
           </div>
@@ -140,11 +161,42 @@
         </div>
       </div>
       <div class="main-content">
-        <div class="main-header">
+        <div class="main-header text-white fw-bold">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-sm-12 col-md-4">New Student +</div>
-              <div class="col-sm-12 col-md-4">Boolean + pills</div>
+              <div class="col-sm-12 col-md-4">
+                Nuovo studente
+                <button
+                  class="btn btn-light"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  +
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Offcanvas right
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">...</div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">Boolean</div>
               <div class="col-sm-12 col-md-4">Online student</div>
             </div>
           </div>
@@ -377,5 +429,10 @@
         </div>
       </div>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
