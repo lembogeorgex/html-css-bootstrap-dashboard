@@ -55,3 +55,17 @@ header {
         width: calc(100% - 200px);
     }
 }
+
+.form-control {
+    background-color: #e9ecef;
+    ;
+}
+
+.header-searchbar {
+    width: 80%;
+    ;
+}
+
+.searchbar {
+    height: 50px;
+}

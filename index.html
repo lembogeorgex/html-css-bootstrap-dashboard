@@ -39,15 +39,46 @@
     <title>Boolean Dashboard</title>
   </head>
   <body>
-    <header>
+    <header class="d-flex align-items-center">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-3">logo</div>
-          <div class="col-6">searchbar</div>
-          <div class="col-3">toggles</div>
+          <div class="col-12">
+            <nav class="navbar">
+              <a class="navbar-brand mx-0" href="#">
+                <img
+                  src="img/mobile-logo.png"
+                  alt="Logo"
+                  width="50"
+                  height="48"
+                />
+              </a>
+
+              <form class="header-searchbar">
+                <div class="input-group searchbar">
+                  <span class="input-group-text border-0" id="basic-addon1">
+                    <i
+                      class="fa-solid fa-magnifying-glass"
+                      style="color: #0751cf"
+                    ></i>
+                  </span>
+                  <input
+                    type="text"
+                    class="form-control border-0"
+                    placeholder="Prova a cercare: Lezioni di PHP"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </form>
+              <div class="my-ico">
+                <i class="fa-solid fa-bell fa-2x" style="color: #eeb759"></i>
+              </div>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
+
     <div class="wrapper">
       <div class="sidebar d-flex flex-column">
         <div class="sidebar-toggle-up flex-grow-1">
