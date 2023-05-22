@@ -2,7 +2,7 @@
 
 [class^='col'] {
     border: 1px dashed blue;
-    min-height: 50px;
+    min-height: 100px;
 }
 
 
