@@ -44,9 +44,17 @@ header {
 }
 
 
+.my-ico-text {
+    display: none;
+}
+
 @media screen and (min-width: 1200px) {
     .sidebar {
         width: 200px;
+    }
+
+    .my-ico-text {
+        display: inline-block;
     }
 
     .main-content {
