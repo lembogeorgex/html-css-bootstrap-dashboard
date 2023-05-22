@@ -27,12 +27,10 @@ header {
 /* SIDEBAR */
 
 .sidebar-toggle-up {
-    border: 1px solid royalblue;
     height: 50px;
 }
 
 .sidebar-toggle-bottom {
-    border: 1px solid royalblue;
     min-height: 50px;
 }
 
