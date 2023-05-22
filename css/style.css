@@ -1,7 +1,8 @@
 /* REMOVE */
 
 [class^='col'] {
-    border: 1px dashed
+    border: 1px dashed blue;
+    min-height: 50px;
 }
 
 

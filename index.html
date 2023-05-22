@@ -192,9 +192,9 @@
                   id="offcanvasRight"
                   aria-labelledby="offcanvasRightLabel"
                 >
-                  <div class="offcanvas-header">
+                  <div class="offcanvas-header text-black">
                     <h5 class="offcanvas-title" id="offcanvasRightLabel">
-                      Offcanvas right
+                      Inserisci un nuovo studente
                     </h5>
                     <button
                       type="button"
@@ -203,7 +203,217 @@
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div class="offcanvas-body">...</div>
+                  <div class="offcanvas-body text-black">
+                    <div class="container fluid">
+                      <div class="row row-cols-1">
+                        <div class="col">
+                          <div class="row row-cols-2">
+                            <div class="col">
+                              <div class="mb-3">
+                                <label
+                                  for="exampleFormControlInput1"
+                                  class="form-label"
+                                  >Nome</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control bg-transparent"
+                                  id="exampleFormControlInput1"
+                                  placeholder="Nome dello studente"
+                                />
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="mb-3">
+                                <label
+                                  for="exampleFormControlInput1"
+                                  class="form-label"
+                                  >Cognome</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control bg-transparent"
+                                  id="exampleFormControlInput1"
+                                  placeholder="Cognome dello studente"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="row row-cols-2">
+                            <div class="col">
+                              <nav class="navbar bg-body-tertiary">
+                                <label for="email-form">Email</label>
+                                <form class="container-fluid" id="email-form">
+                                  <div class="input-group">
+                                    <span
+                                      class="input-group-text"
+                                      id="basic-addon1"
+                                      >@</span
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control bg-transparent"
+                                      placeholder="Email dello studente "
+                                      aria-label="Username"
+                                      aria-describedby="basic-addon1"
+                                    />
+                                  </div>
+                                </form>
+                              </nav>
+                            </div>
+                            <div class="col">
+                              <label for="inputPassword5" class="form-label"
+                                >Password</label
+                              >
+                              <input
+                                type="password"
+                                id="inputPassword5"
+                                class="form-control bg-transparent"
+                                aria-labelledby="passwordHelpBlock"
+                                placeholder="Inserisci qui la password per la mail"
+                              />
+                              <div
+                                id="passwordHelpBlock"
+                                class="form-text"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="row row-cols-2">
+                            <div class="col">
+                              <nav class="navbar bg-body-tertiary">
+                                <label for="username-form">Username</label>
+                                <form class="container-fluid" id="email-form">
+                                  <div class="input-group">
+                                    <span
+                                      class="input-group-text"
+                                      id="basic-addon1"
+                                      >@</span
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control bg-transparent"
+                                      placeholder="Username dello studente "
+                                      aria-label="Username"
+                                      aria-describedby="basic-addon1"
+                                    />
+                                  </div>
+                                </form>
+                              </nav>
+                            </div>
+                            <div class="col">
+                              <label for="inputPassword5" class="form-label"
+                                >Password</label
+                              >
+                              <input
+                                type="password"
+                                id="inputPassword5"
+                                class="form-control bg-transparent"
+                                aria-labelledby="passwordHelpBlock"
+                                placeholder="Inserisci qui la password per l'utente"
+                              />
+                              <div
+                                id="passwordHelpBlock"
+                                class="form-text"
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <label for="exampleDataList" class="form-label"
+                            >Indirizzo</label
+                          >
+                          <input
+                            class="form-control bg-transparent"
+                            list="datalistOptions"
+                            id="exampleDataList"
+                            placeholder="Digita o seleziona un indirizzo"
+                          />
+                          <datalist id="datalistOptions">
+                            <option value="Roma"></option>
+                            <option value="Palermo"></option>
+                            <option value="Verona"></option>
+                            <option value="Firenze"></option>
+                            <option value="Basilicata"></option>
+                          </datalist>
+                        </div>
+                        <div class="col">
+                          <div class="row row-cols-3">
+                            <div class="col">
+                              <label for="exampleDataList" class="form-label"
+                                >Città</label
+                              >
+                              <input
+                                class="form-control bg-transparent"
+                                list="datalistOptions"
+                                id="exampleDataList"
+                                placeholder="Digita o seleziona un indirizzo"
+                              />
+                              <datalist id="datalistOptions">
+                                <option value="Roma"></option>
+                                <option value="Palermo"></option>
+                                <option value="Verona"></option>
+                                <option value="Firenze"></option>
+                                <option value="Basilicata"></option>
+                              </datalist>
+                            </div>
+                            <div class="col">
+                              <label for="state-select">Stato</label>
+                              <select
+                                class="form-select"
+                                aria-label="Default select example"
+                                id="state-select"
+                              >
+                                <option selected>Scegli</option>
+                                <option value="1">London</option>
+                                <option value="2">It</option>
+                                <option value="3">Other</option>
+                              </select>
+                            </div>
+                            <div class="col">
+                              <div class="mb-3">
+                                <label
+                                  for="exampleFormControlInput1"
+                                  class="form-label"
+                                  >CAP</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control bg-transparent w-50"
+                                  id="exampleFormControlInput1"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="input-group mb-3">
+                            <input
+                              type="file"
+                              class="form-control bg-transparent"
+                              id="inputGroupFile02"
+                            />
+                          </div>
+                        </div>
+                        <div class="row row-cols-1">
+                          <div class="col">
+                            <input type="checkbox" />Seleziona per proseguire
+                          </div>
+                          <div class="col">
+                            <button type="button" class="btn btn-primary">
+                              Salva
+                            </button>
+                            <button type="button" class="btn btn-warning">
+                              Svuota
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4 order-md-0 col-lg-6">
@@ -266,7 +476,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -298,7 +508,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -330,7 +540,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -362,7 +572,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -394,7 +604,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -426,7 +636,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -458,7 +668,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
@@ -490,7 +700,7 @@
                           </th>
 
                           <td class="d-none d-lg-table-cell">12 Apr 2023</td>
-                          <td class="d-none d-lg-table-cell">20%</td>
+                          <td class="d-none d-lg-table-cell">100%</td>
                           <td>
                             <span class="badge text-bg-success">Success</span>
                           </td>
