@@ -30,12 +30,13 @@ header {
 
 .sidebar {
     width: 100px;
-    background-color: khaki;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: rgb(5, 30, 52);
 }
 
 .main-content {
     width: calc(100% - 100px);
-    background-color: paleturquoise;
+    background-color: rgb(248, 249, 250);
     overflow: auto;
 }
 
@@ -46,6 +47,11 @@ header {
 
 .my-ico-text {
     display: none;
+}
+
+/* Allineamento di affino */
+.stats-text {
+    padding-left: 12px;
 }
 
 @media screen and (min-width: 1200px) {
