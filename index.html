@@ -34,6 +34,7 @@
     <title>Boolean Dashboard</title>
   </head>
   <body>
+    <!-- HEADER *********************************** -->
     <header class="d-flex align-items-center">
       <div class="container-fluid">
         <div class="row">
@@ -48,6 +49,7 @@
                   class="d-md-none d-lg-none"
                 />
               </a>
+              <!-- LOGO NAVBAR *********************************** -->
 
               <a class="navbar-brand mx-0" href="#">
                 <img
@@ -58,9 +60,11 @@
                   class="d-none d-md-block d-lg-block my-large-logo"
                 />
               </a>
+              <!-- SEARCHBAR *********************************** -->
+
               <form class="header-searchbar">
                 <div class="input-group searchbar">
-                  <span class="input-group-text border-0" id="basic-addon1">
+                  <span class="input-group-text border-0" id="basic-addon3">
                     <i
                       class="fa-solid fa-magnifying-glass"
                       style="color: #0751cf"
@@ -71,10 +75,13 @@
                     class="form-control border-0"
                     placeholder="Prova a cercare: Lezioni di PHP"
                     aria-label="Username"
-                    aria-describedby="basic-addon1"
+                    aria-describedby="basic-addon3"
                   />
                 </div>
               </form>
+
+              <!-- RIGHT-NAV *********************************** -->
+
               <div class="my-ico d-flex flex-nowrap align-items-center">
                 <i class="fa-solid fa-list px-1 d-none d-lg-inline-block"></i>
                 <i
@@ -121,12 +128,14 @@
       </div>
     </header>
 
+    <!-- WRAPPER *********************************** -->
     <div class="wrapper">
+      <!-- SIDEBAR *********************************** -->
       <div class="sidebar d-flex flex-column">
         <div class="sidebar-toggle-up flex-grow-1">
           <div class="container-fluid">
             <div class="row row-cols-1">
-              <div class="col">
+              <div class="col my-hover-cols">
                 <i
                   class="align-middle fa-solid text-white fa-house fa-2x px-3 py-3"
                 >
@@ -135,7 +144,7 @@
                   >Home</span
                 >
               </div>
-              <div class="col">
+              <div class="col my-hover-cols">
                 <i
                   class="align-middle fa-solid text-white fa-chart-simple fa-2x px-3 py-3"
                 ></i>
@@ -144,7 +153,7 @@
                   >Stats</span
                 >
               </div>
-              <div class="col">
+              <div class="col my-hover-cols">
                 <i
                   class="align-middle fa-solid text-white fa-signal fa-2x px-3 py-3"
                 ></i>
@@ -158,7 +167,7 @@
         <div class="sidebar-toggle-bottom flex-grow-0">
           <div class="container-fluid">
             <div class="row">
-              <div class="col">
+              <div class="col my-hover-cols">
                 <i
                   class="align-middle fa-solid fa-wrench text-white fa-2x fa-fade px-3 py-3"
                 ></i>
@@ -170,6 +179,8 @@
           </div>
         </div>
       </div>
+      <!-- MAIN CONTENT *********************************** -->
+
       <div class="main-content">
         <div class="main-header text-white">
           <div class="container-fluid">
@@ -185,6 +196,7 @@
                 >
                   +
                 </button>
+                <!-- OFFCANVAS *********************************** -->
 
                 <div
                   class="offcanvas offcanvas-end"
@@ -226,14 +238,14 @@
                             <div class="col">
                               <div class="mb-3">
                                 <label
-                                  for="exampleFormControlInput1"
+                                  for="exampleFormControlInput2"
                                   class="form-label"
                                   >Cognome</label
                                 >
                                 <input
                                   type="text"
                                   class="form-control bg-transparent"
-                                  id="exampleFormControlInput1"
+                                  id="exampleFormControlInput2"
                                   placeholder="Cognome dello studente"
                                 />
                               </div>
@@ -244,12 +256,12 @@
                           <div class="row row-cols-2">
                             <div class="col">
                               <nav class="navbar bg-body-tertiary">
-                                <label for="email-form">Email</label>
-                                <form class="container-fluid" id="email-form">
+                                <label for="xyz">Email</label>
+                                <form class="container-fluid" id="xyz">
                                   <div class="input-group">
                                     <span
                                       class="input-group-text"
-                                      id="basic-addon1"
+                                      id="basic-addon4"
                                       >@</span
                                     >
                                     <input
@@ -257,7 +269,7 @@
                                       class="form-control bg-transparent"
                                       placeholder="Email dello studente "
                                       aria-label="Username"
-                                      aria-describedby="basic-addon1"
+                                      aria-describedby="basic-addon4"
                                     />
                                   </div>
                                 </form>
@@ -271,11 +283,11 @@
                                 type="password"
                                 id="inputPassword5"
                                 class="form-control bg-transparent"
-                                aria-labelledby="passwordHelpBlock"
+                                aria-labelledby="passwordHelpBlock2"
                                 placeholder="Inserisci qui la password per la mail"
                               />
                               <div
-                                id="passwordHelpBlock"
+                                id="passwordHelpBlock2"
                                 class="form-text"
                               ></div>
                             </div>
@@ -285,12 +297,12 @@
                           <div class="row row-cols-2">
                             <div class="col">
                               <nav class="navbar bg-body-tertiary">
-                                <label for="username-form">Username</label>
-                                <form class="container-fluid" id="email-form">
+                                <label for="zxy">Username</label>
+                                <form class="container-fluid" id="zxy">
                                   <div class="input-group">
                                     <span
                                       class="input-group-text"
-                                      id="basic-addon1"
+                                      id="basic-addon2"
                                       >@</span
                                     >
                                     <input
@@ -298,19 +310,19 @@
                                       class="form-control bg-transparent"
                                       placeholder="Username dello studente "
                                       aria-label="Username"
-                                      aria-describedby="basic-addon1"
+                                      aria-describedby="basic-addon2"
                                     />
                                   </div>
                                 </form>
                               </nav>
                             </div>
                             <div class="col">
-                              <label for="inputPassword5" class="form-label"
+                              <label for="inputPassword4" class="form-label"
                                 >Password</label
                               >
                               <input
                                 type="password"
-                                id="inputPassword5"
+                                id="inputPassword4"
                                 class="form-control bg-transparent"
                                 aria-labelledby="passwordHelpBlock"
                                 placeholder="Inserisci qui la password per l'utente"
@@ -323,16 +335,16 @@
                           </div>
                         </div>
                         <div class="col">
-                          <label for="exampleDataList" class="form-label"
+                          <label for="exampleDataList3" class="form-label"
                             >Indirizzo</label
                           >
                           <input
                             class="form-control bg-transparent"
-                            list="datalistOptions"
-                            id="exampleDataList"
+                            list="datalistOptions3"
+                            id="exampleDataList3"
                             placeholder="Digita o seleziona un indirizzo"
                           />
-                          <datalist id="datalistOptions">
+                          <datalist id="datalistOptions3">
                             <option value="Roma"></option>
                             <option value="Palermo"></option>
                             <option value="Verona"></option>
@@ -348,11 +360,11 @@
                               >
                               <input
                                 class="form-control bg-transparent"
-                                list="datalistOptions"
+                                list="datalistOptions2"
                                 id="exampleDataList"
                                 placeholder="Digita o seleziona un indirizzo"
                               />
-                              <datalist id="datalistOptions">
+                              <datalist id="datalistOptions2">
                                 <option value="Roma"></option>
                                 <option value="Palermo"></option>
                                 <option value="Verona"></option>
@@ -376,14 +388,14 @@
                             <div class="col">
                               <div class="mb-3">
                                 <label
-                                  for="exampleFormControlInput1"
+                                  for="exampleFormControlInput5"
                                   class="form-label"
                                   >CAP</label
                                 >
                                 <input
                                   type="text"
                                   class="form-control bg-transparent w-50"
-                                  id="exampleFormControlInput1"
+                                  id="exampleFormControlInput5"
                                 />
                               </div>
                             </div>
@@ -418,6 +430,8 @@
               </div>
               <div class="col-sm-12 col-md-4 order-md-0 col-lg-6">
                 <span class="fs-3">Boolean </span>
+                <!-- PILLS *********************************** -->
+
                 <span class="badge text-bg-secondary">Piano Blaze</span>
                 <br />
                 <span class="badge text-bg-secondary">3 app</span>
@@ -443,11 +457,13 @@
         <div class="content">
           <div class="container-fluid">
             <div class="row">
+              <!-- MAIN CONTENT&LAYOUT *********************************** -->
+
               <div class="col-sm-12 col-lg-8">
                 <div class="card my-3">
                   <div class="card-header">Prossime Classi</div>
                   <div class="card-body">
-                    <table class="table text-center">
+                    <table class="table text-center table-hover">
                       <thead>
                         <tr>
                           <th scope="col">Nome</th>
@@ -860,6 +876,8 @@
         </div>
       </div>
     </div>
+
+    <!-- JAVASCRIPT EMBED -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
