@@ -44,9 +44,8 @@ header {
 }
 
 .main-header {
-    background-color: greenyellow;
+    background-color: rgb(28, 113, 232);
 }
-
 
 .my-ico-text {
     display: none;
@@ -125,4 +124,8 @@ header {
 
 .dropstart .dropdown-toggle::before {
     display: none;
+}
+
+.text-bg-secondary {
+    background-color: rgba(0, 0, 0, 0.4) !important;
 }
